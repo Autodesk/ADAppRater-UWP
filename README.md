@@ -1,14 +1,14 @@
 # AppRater-UWP
 
-* [General Information](https://git.autodesk.com/zhangmin/ADAppRater-UWP#general-information)
-* [Features](https://git.autodesk.com/zhangmin/ADAppRater-UWP#features)
-* [Installation](https://git.autodesk.com/zhangmin/ADAppRater-UWP#installation)
-* [Criteria and Events](https://git.autodesk.com/zhangmin/ADAppRater-UWP#criteria-and-events)
-* [Basic Usage](https://git.autodesk.com/zhangmin/ADAppRater-UWP#basic-usage)
-* [Configuration](https://git.autodesk.com/zhangmin/ADAppRater-UWP#configurations)
-* [Example Project](https://git.autodesk.com/zhangmin/ADAppRater-UWP#example-project)
-* [Special Thanks](https://git.autodesk.com/zhangmin/ADAppRater-UWP#special-thanks)
-* [Contact](https://git.autodesk.com/zhangmin/ADAppRater-UWP#contact)
+* [General Information](https://github.com/Autodesk/ADAppRater-UWP#general-information)
+* [Features](https://github.com/Autodesk/ADAppRater-UWP#features)
+* [Installation](https://github.com/Autodesk/ADAppRater-UWP#installation)
+* [Criteria and Events](https://github.com/Autodesk/ADAppRater-UWP#criteria-and-events)
+* [Basic Usage](https://github.com/Autodesk/ADAppRater-UWP#basic-usage)
+* [Configuration](https://github.com/Autodesk/ADAppRater-UWP#configurations)
+* [Example Project](https://github.com/Autodesk/ADAppRater-UWP#example-project)
+* [Special Thanks](https://github.com/Autodesk/ADAppRater-UWP#special-thanks)
+* [Contact](https://github.com/Autodesk/ADAppRater-UWP#contact)
 
 UWP library to easily add an App Rater functionality to your application.
 Adding a rater to your app is proven to be an excellent way to gain high marks in UWP store. And even if the user is not 
@@ -22,17 +22,17 @@ satisfied, he may send some feedback so you can immidiatly check the issue and f
 First some general info on how this library works.<br> 
 
 This library will first present the user with an Enjoyment Dialog:<br>
-![alt text](https://git.autodesk.com/zhangmin/ADAppRater-UWP/blob/master/Assets/enjoyment.PNG "Enjoyment Dialog")
+![alt text](https://github.com/Autodesk/ADAppRater-UWP/blob/master/Assets/enjoyment.PNG "Enjoyment Dialog")
 
 
 The user can select No and he will be presented with the Send Feedback Dialog:<br>
-![alt text](https://git.autodesk.com/zhangmin/ADAppRater-UWP/blob/master/Assets/contactus.PNG "Contact Us Dialog")
+![alt text](https://github.com/Autodesk/ADAppRater-UWP/blob/master/Assets/contactus.PNG "Contact Us Dialog")
 
 He may select Yes and then be presented with the Rate Us Dialog:<br>
-![alt text](https://git.autodesk.com/zhangmin/ADAppRater-UWP/blob/master/Assets/rateus.PNG "Rate Us Dialog")
+![alt text](https://github.com/Autodesk/ADAppRater-UWP/blob/master/Assets/rateus.PNG "Rate Us Dialog")
 
 In the Send Feedback Dialog the user can select Contact us to send a feedback using an email form for instance:<br>
-![alt text](https://git.autodesk.com/zhangmin/ADAppRater-UWP/blob/master/Assets/ContactUsMail.PNG "Email")
+![alt text](https://github.com/Autodesk/ADAppRater-UWP/blob/master/Assets/ContactUsMail.PNG "Email")
 
 Or he may simply select No Thanks and the dialog will stop showing.
 
