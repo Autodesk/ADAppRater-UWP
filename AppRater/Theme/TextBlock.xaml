@@ -1,0 +1,22 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppRater.Theme">
+
+    <Style x:Key="StyleTextBlockRegularAppRater" TargetType="TextBlock">
+        <Setter Property="TextWrapping" Value="{StaticResource TextFontWrapping}"/>
+        <Setter Property="FontFamily" Value="{StaticResource TextFontRegularAppRater}"/>
+    </Style>
+    
+    <Style x:Key="StyleTextBlockRegularAppRaterHeader" TargetType="TextBlock"
+           BasedOn="{StaticResource StyleTextBlockRegularAppRater}">
+        <Setter Property="Foreground" Value="{StaticResource BrushDefaultFileInfoGridHeader}"/>
+    </Style>
+
+    <Style x:Key="StyleTextBlockBody" TargetType="TextBlock"
+           BasedOn="{StaticResource StyleTextBlockRegularAppRaterHeader}">
+        <Setter Property="FontSize" Value="{StaticResource FontSizeBody}"/>
+    </Style>
+
+ 
+</ResourceDictionary>
